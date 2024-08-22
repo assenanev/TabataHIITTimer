@@ -1,0 +1,17 @@
+com.xquadro.tabataTimer.BuildConfig
+com.xquadro.tabataTimer.R
+com.xquadro.tabataTimer.R$attr
+com.xquadro.tabataTimer.R$drawable
+com.xquadro.tabataTimer.R$id
+com.xquadro.tabataTimer.R$layout
+com.xquadro.tabataTimer.R$string
+com.xquadro.tabataTimer.TabataModel2:
+    public static final int PREPARE
+    public static final int EFFORD
+    public static final int REST
+    public static final int END
+    public static final int NO_SOUND
+    public static final int EFFORD_SOUND
+    public static final int REST_SOUND
+    75:75:public int getRoundsLeft()
+    91:91:public int getTotalTime()

@@ -1,0 +1,42 @@
+com.xquadro.tabataTimer.R$drawable: int ic_launcher
+com.xquadro.tabataTimer.R$drawable: int ic_pause
+com.xquadro.tabataTimer.R$drawable: int ic_play
+com.xquadro.tabataTimer.R$drawable: int ic_size_big
+com.xquadro.tabataTimer.R$drawable: int ic_size_small
+com.xquadro.tabataTimer.R$drawable: int ic_sound_off
+com.xquadro.tabataTimer.R$drawable: int ic_sound_on
+com.xquadro.tabataTimer.R$id: int bigSmallView
+com.xquadro.tabataTimer.R$id: int btnReset
+com.xquadro.tabataTimer.R$id: int btnStart
+com.xquadro.tabataTimer.R$id: int cbTwoBeeps
+com.xquadro.tabataTimer.R$id: int etCount
+com.xquadro.tabataTimer.R$id: int etPrepare
+com.xquadro.tabataTimer.R$id: int etRest
+com.xquadro.tabataTimer.R$id: int etWork
+com.xquadro.tabataTimer.R$id: int pauseView
+com.xquadro.tabataTimer.R$id: int rlBG
+com.xquadro.tabataTimer.R$id: int soundView
+com.xquadro.tabataTimer.R$id: int textView1
+com.xquadro.tabataTimer.R$id: int tvCDT
+com.xquadro.tabataTimer.R$id: int tvCount
+com.xquadro.tabataTimer.R$id: int tvIntervals
+com.xquadro.tabataTimer.R$id: int tvPrepare
+com.xquadro.tabataTimer.R$id: int tvRest
+com.xquadro.tabataTimer.R$id: int tvTwoBlips
+com.xquadro.tabataTimer.R$id: int tvType
+com.xquadro.tabataTimer.R$id: int tvWork
+com.xquadro.tabataTimer.R$layout: int main
+com.xquadro.tabataTimer.R$layout: int timer
+com.xquadro.tabataTimer.R$string: int app_name
+com.xquadro.tabataTimer.R$string: int font_size
+com.xquadro.tabataTimer.R$string: int pause
+com.xquadro.tabataTimer.R$string: int play
+com.xquadro.tabataTimer.R$string: int prepare
+com.xquadro.tabataTimer.R$string: int remain
+com.xquadro.tabataTimer.R$string: int round
+com.xquadro.tabataTimer.R$string: int zeroes
+com.xquadro.tabataTimer.TabataMainActivity
+com.xquadro.tabataTimer.TabataMainActivity: TabataMainActivity()
+com.xquadro.tabataTimer.TabataMainActivity: void onClick(android.view.View)
+com.xquadro.tabataTimer.TimerActivity
+com.xquadro.tabataTimer.TimerActivity: TimerActivity()

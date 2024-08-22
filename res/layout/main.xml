@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvPrepare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etPrepare"
+        android:layout_alignBottom="@+id/etPrepare"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:text="Prepare Interval (sec.)"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etPrepare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tvPrepare"
+        android:ems="10"
+        android:inputType="number"
+        android:text="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etWork"
+        android:layout_alignBottom="@+id/etWork"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:text="Work Interval (sec.)"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etPrepare"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/etPrepare"
+        android:ems="10"
+        android:inputType="number"
+        android:text="20" />
+
+    <EditText
+        android:id="@+id/etRest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etWork"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/etWork"
+        android:ems="10"
+        android:inputType="number"
+        android:text="10" />
+
+    <TextView
+        android:id="@+id/tvRest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etRest"
+        android:layout_alignBottom="@+id/etRest"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:text="Rest Interval (sec.)"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etRest"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/etRest"
+        android:ems="10"
+        android:inputType="number"
+        android:text="8" />
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etCount"
+        android:layout_alignBottom="@+id/etCount"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:text="Rounds (count)"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <CheckBox
+        android:id="@+id/cbTwoBeeps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCount"
+        android:layout_toRightOf="@+id/tvPrepare"
+        android:text="" />
+    
+     <TextView
+        android:id="@+id/tvTwoBlips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cbTwoBeeps"
+        android:layout_alignBottom="@+id/cbTwoBeeps"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:text="Double end-chime"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="Begin Workout" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/cbTwoBeeps"
+        android:text="Reset" />
+
+</RelativeLayout>
